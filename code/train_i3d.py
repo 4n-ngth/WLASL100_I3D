@@ -199,7 +199,8 @@ if __name__ == '__main__':
     # weights = 'archived/asl2000/FINAL_nslt_2000_iters=5104_top1=32.48_top5=57.31_top10=66.31.pt'
     # weights = None
     weights = 'archived/asl100/FINAL_nslt_100_iters=896_top1=65.89_top5=84.11_top10=89.92.pt'
-    config_file = 'configfiles/asl100.ini'
+    # config_file = 'configfiles/asl100.ini'
+    config_file = 'configfiles/asl100_chatgpt.ini'
 
     configs = Config(config_file)
     print(root, train_split)

@@ -262,7 +262,7 @@ if __name__ == '__main__':
     # need to add argparse
     mode = 'rgb'
     num_classes = 100
-    save_model = 'checkpoints/'
+    save_model = '/content/drive/MyDrive/checkpoints/'
 
     root = 'data/'
 

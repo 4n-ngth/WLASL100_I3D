@@ -193,7 +193,7 @@ if __name__ == '__main__':
     # root = {'word': '../../data/WLASL100'}
     root = {'word': 'data'}
 
-    save_model = '/content/drive/MyDrive/checkpoints/'
+    save_model = 'checkpoints/'
     train_split = 'preprocess/nslt_100.json'
 
     # weights = 'archived/asl2000/FINAL_nslt_2000_iters=5104_top1=32.48_top5=57.31_top10=66.31.pt'
